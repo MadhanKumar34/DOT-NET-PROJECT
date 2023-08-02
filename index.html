@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Page</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styles for the header */
+        header {
+            height: 15vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #27449a;
+            color: #fff;
+        }
+
+        .university-logo {
+            display: flex;
+            align-items: center;
+        }
+
+            .university-logo img {
+                height: 40px;
+                margin-right: 10px;
+            }
+
+        .navigation {
+            display: flex;
+        }
+
+            .navigation a {
+                margin-right: 20px;
+                color: #fff;
+                text-decoration: none;
+                border:2px solid white;
+                box-sizing:border-box;
+                padding:10px;
+                border-radius:10px;
+            }
+
+
+        /* Styles for the main content */
+        main {
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2f2f2;
+            background-image: url('university.jpeg');
+            /* Adjust background properties to cover the entire page */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .navigation a:hover{
+            background:white;
+            color:blue;
+        }
+
+
+        /* Styles for the footer */
+        footer {
+            height: 10vh;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="university-logo">
+            <img src="Logo.png" alt="University Logo">
+            <h1>PRESIDENCY UNIVERSITY</h1>
+        </div>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="Student.html">Student</a>
+            <a href="Faculty.html">Faculty</a>
+        </nav>
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+        &copy; 2023 Presidency University. All rights reserved.
+    </footer>
+</body>
+</html>
